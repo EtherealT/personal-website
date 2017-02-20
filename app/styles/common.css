@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'hp simplified light';
+    src: url("/assets/fonts/HP Simplified Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'hp simplified regular';
+    src: url("/assets/fonts/HP Simplified Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'hp simplified bold';
+    src: url("/assets/fonts/HP Simplified Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'hp simplified italic';
+    src: url("/assets/fonts/HP Simplified Italic.otf") format("opentype");
+}
+
+.npnbnm{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#page-wrapper{
+    display: block;
+    width: 100%;
+}
