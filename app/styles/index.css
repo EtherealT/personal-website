@@ -17,7 +17,6 @@
     display: table;
     position: relative;
     top: 30%;
-    text-align: center;
     margin: auto;
 }
 
@@ -28,8 +27,35 @@
 }
 
 #index-name{
+    display: block;
+    width: 100%;
+    margin: auto;
+    font-size: 3.5em;
+}
+
+#index-sub-name-hold{
     display: table;
     margin: auto;
-    margin-bottom: 10px;
-    font-size: 3.5em;
+    text-align: center;
+}
+
+.index-sub-name-unit{
+    display: table;
+    float: left;
+    padding: 10px 0px 20px 0px;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+.index-sub-name{
+    width: 100%;
+    margin: auto;
+    font-size: 1.3em;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.index-sub-name:hover{
+    text-decoration: none;
+    color: #3D3D3D;
 }
