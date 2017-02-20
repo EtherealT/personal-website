@@ -18,6 +18,10 @@
     src: url("/assets/fonts/HP Simplified Italic.otf") format("opentype");
 }
 
+body{
+    color: #3d3d3d;
+}
+
 .npnbnm{
     padding: 0px;
     margin: 0px;

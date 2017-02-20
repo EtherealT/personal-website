@@ -21,10 +21,15 @@
     margin: auto;
 }
 
-#name{
+.index-text{
+    font-family: 'hp simplified bold';
+    color: #3D3D3D;
+    text-align: center;
+}
+
+#index-name{
     display: table;
     margin: auto;
     margin-bottom: 10px;
-    font-size: 4em;
-    font-family: calibri;
+    font-size: 3.5em;
 }
