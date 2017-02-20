@@ -28,3 +28,102 @@
     display: block;
     width: 100%;
 }
+
+a{
+    outline: none;
+}
+
+a:active{
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'hp simplified regular';
+}
+
+#header{
+    width: 100%;
+    height: 35px;
+    padding-top: 15px;
+    border-bottom: 1px solid #EDEDED;
+    background-color: #FFF;
+}
+
+#in-header{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+#page-content{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#header-logo{
+    display: table;
+    font-family: 'hp simplified bold';
+    color: #3D3D3D;
+    font-size: 1em;
+    text-decoration: none;
+    float: left;
+}
+
+#page-indicator{
+    font-family: 'hp simplified bold';
+    color: #CFCFCF;
+    font-size: 1em;
+    float: left;
+}
+
+.transitions{
+    transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s
+}
+
+#menu-div{
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.menu-item-hold{
+    float: left;
+    padding-left:15px;
+    display: block;
+}
+
+.menu-item{
+    color: #3D3D3D;
+    text-align: center;
+    padding-bottom: 5px;
+    display: block;
+    font-family: 'hp simplified bold', candara;
+    outline: none;
+    text-decoration:none;
+}
+
+.menu-item:hover{
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.menu-item:focus{
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.menu-item:active{
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.menu-effect-div{
+    width: 0%;
+    background-color: #3D3D3D;
+    height: 2px;
+}
+
