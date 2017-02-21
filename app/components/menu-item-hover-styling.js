@@ -8,6 +8,7 @@ export default Ember.Component.extend({
                 effectDiv.css('width');
                 effectDiv.css('width', '100%');
             },
+
             mouseleave: function (e) {
                 var effectDiv = Ember.$('.menu-effect-div', this);
                 effectDiv.css('width');
