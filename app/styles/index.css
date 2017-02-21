@@ -36,7 +36,9 @@
 #index-sub-name-hold{
     display: table;
     margin: auto;
+    padding: 0px;
     text-align: center;
+    border: 0px;
 }
 
 .index-sub-name-unit{
