@@ -1,1 +1,31 @@
-{{yield}}
+<div id="header">
+    <div id="in-header">
+        <div class="npnbnm">
+            {{#link-to 'index' id="header-logo"}}Tobi Adeyinka{{/link-to}}
+            <span id="page-indicator">&nbsp;/About</span>
+        </div>
+
+        <div class="npnbnm" id="menu-div">
+            <div class="menu-item-hold">
+                {{#link-to 'about' class="menu-item"}}About{{/link-to}}
+                <div class="menu-effect-div transitions"></div>
+            </div>
+
+            <div class="menu-item-hold">
+                <a href="https://blog.tobiadeyinka.com" class="menu-item">Blog</a>
+                <div class="menu-effect-div transitions"></div>
+            </div>
+
+            <div class="menu-item-hold">
+                {{#link-to 'projects' class="menu-item"}}Projects{{/link-to}}
+                <div class="menu-effect-div transitions"></div>
+            </div>
+
+            <div class="menu-item-hold">
+                {{#link-to 'contact' class="menu-item"}}Contact{{/link-to}}
+                <div class="menu-effect-div transitions"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
