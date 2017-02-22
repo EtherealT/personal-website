@@ -1,0 +1,49 @@
+#about-me-main{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+#me{
+    width: 70%;
+    height: 70%;
+    border: 0px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#about-me-text{
+    display: block;
+    margin: auto;
+    width: 100%;
+    width: 100%;
+    text-align: left;
+    color: #333;
+    font-family: 'hp simplified light';
+    font-size: 1.3em;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+#about-me-text a{
+    text-decoration: none;
+    color: #43d58c;
+}
+
+/*Computer only styling*/
+@media screen and (min-width: 600px) {
+
+    #about-me-main{
+        width: 600px;
+    }
+
+    #me{
+        width: 50%;
+        height: 50%;
+    }
+}
+
