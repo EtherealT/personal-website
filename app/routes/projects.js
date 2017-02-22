@@ -14,7 +14,7 @@ let projects = [
         title: '2 Lies 1 Fact',
         description: 'A general knowledge quiz game on android. The source code is available on github.',
         url: 'https://play.google.com/store/apps/details?id=com.nectarmicrosystems.libgdx.twoliesonefact.android',
-        imgUrl: 'assets/img/2l1f.png'
+        imgUrl: 'assets/img/2l1f.jpeg'
     },
 
     {

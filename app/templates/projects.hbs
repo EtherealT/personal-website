@@ -1,3 +1,13 @@
 <div class="npnbnm" id="page-wrapper">
     {{page-header pageName=model.pageName}}
+
+    <div id="projects-hold">
+        {{#each model.projects as |project|}}
+            <a href="{{project.url}}" class="project" target="_blank">
+                <img src="{{project.imgUrl}}" />
+                <span class="project-title">{{project.title}}</span>
+                <span class="project-description">{{project.description}}</span>
+            </a>
+        {{/each}}
+    </div>
 </div>
