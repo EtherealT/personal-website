@@ -1,1 +1,16 @@
-{{yield}}
+
+<div id="contact-hold">
+    <div id="contact-hold-top">
+        <h2>Get In Touch</h2>
+    </div>
+
+    <div id="result-div">
+    </div>
+
+    <form {{action 'processContactForm' on="submit"}} id="contact-form"> 
+        {{input type="text" name="name" id="sender" class="contact-form-text-input transitions" placeholder="Name"}}
+        {{input type="text" name="email" id="sender-email" class="contact-form-text-input transitions" placeholder="Email"}}
+        {{textarea name="message" id="message" class="contact-form-text-input transitions" placeholder="Message"}}
+        <button type="sumit" id="contact-form-submit">Send</button>
+    </form>
+</div>
