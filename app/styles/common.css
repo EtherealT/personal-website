@@ -142,8 +142,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .find-me{
-    width: 17px;
-    height: 17px;
+    width: 19px;
+    height: 19px;
     background-color: #3d3d3d;
     margin: 5px;
     float: left;
@@ -152,6 +152,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .find-me-img{
-    width: 17px;
-    height: 17px;
+    width: 19px;
+    height: 19px;
 }
