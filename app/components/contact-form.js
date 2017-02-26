@@ -16,7 +16,7 @@ export default Ember.Component.extend({
             var senderEmail = Ember.$('#sender-email');
             var message = Ember.$('#message');
 
-            if(senderName.val().length == 0 || senderEmail.val().length == 0 || message.val().length == 0){
+            if(senderName.val().length === 0 || senderEmail.val().length === 0 || message.val().length === 0){
                 Ember.$('#result-div').append('<div style="font-family:hp simplified regular;background-color:#FF5333;color:#ffffff;text-align:center;width:250px;height:10px;border-radius:5px;padding:10px;padding-top:5px;">Please fill out all fields</div>');
                 Ember.$('#result-div').fadeIn(500, 'swing');
             }
@@ -26,12 +26,12 @@ export default Ember.Component.extend({
             }
             else{
                 Ember.$('#result-div').html('');
-                var senderName = senderName.val();
-                var senderEmail = senderEmail.val();
-                var message = message.val();
+                senderName = senderName.val();
+                senderEmail = senderEmail.val();
+                message = message.val();
 
                 // send message
-                Ember.$.post('/message.php', {'name':senderName, 'email':senderEmail, 'message':message}, function(data){
+                Ember.$.post('/message.php', {'name':senderName, 'email':senderEmail, 'message':message}, function(){
                     Ember.$('#result-div').append('<div style="font-family:hp simplified regular;background-color:#43d58c;color:#ffffff;text-align:center;width:250px;height:10px;border-radius:5px;padding:10px;padding-top:5px;">Thanks for your message!</div>');
                     Ember.$('#result-div').fadeIn(500, 'swing');
 

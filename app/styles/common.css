@@ -1,7 +1,7 @@
-@font-face {
+/*@font-face {
     font-family: 'hp simplified light';
     src: url("/assets/fonts/HP Simplified Light.otf") format("opentype");
-}
+}*/
 
 @font-face {
     font-family: 'hp simplified regular';
@@ -13,10 +13,10 @@
     src: url("/assets/fonts/HP Simplified Bold.otf") format("opentype");
 }
 
-@font-face {
+/*@font-face {
     font-family: 'hp simplified italic';
     src: url("/assets/fonts/HP Simplified Italic.otf") format("opentype");
-}
+}*/
 
 body{
     color: #3d3d3d;
