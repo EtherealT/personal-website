@@ -8,7 +8,7 @@ let projects = [
         description: 'Veedigo is a platform engineered to help college students in Budapest Hungary, by providing some services that aid student life. This is a collaborative project with Harry Otemelate.',
         url: 'http://veedigo.com',
         imgUrl: 'assets/img/veedigo.png',
-        tags: ['java', 'javascript', 'ember']
+        tags: ['java', 'php', 'javascript', 'ember']
     },
 
     {
@@ -32,7 +32,7 @@ let projects = [
         description: 'Expense journal is a minimal android application for tracking personal finance. It is open sourced on Github.',
         url: 'https://play.google.com/store/apps/details?id=com.nectarmicrosystems.fundsmanager',
         imgUrl: 'assets/img/ej.jpg',
-        tags: ['java', 'android', 'libgdx']
+        tags: ['java', 'android']
     }
 ];
 
