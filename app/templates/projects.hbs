@@ -5,6 +5,11 @@
         {{#each model.projects as |project|}}
             <a href="{{project.url}}" class="project" target="_blank">
                 <img src="{{project.imgUrl}}" />
+                <div class="tags-hold">
+                    {{#each project.tags as |tag|}}
+                    <span class="tag">{{tag}}</span>
+                    {{/each}}
+                </div>
                 <span class="project-title">{{project.title}}</span>
                 <span class="project-description">{{project.description}}</span>
             </a>
