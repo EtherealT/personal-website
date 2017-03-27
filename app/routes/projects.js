@@ -12,19 +12,27 @@ let projects = [
     },
 
     {
-        title: '2 Lies 1 Fact',
-        description: 'A general knowledge quiz game on android. The source code is available on github.',
-        url: 'https://play.google.com/store/apps/details?id=com.nectarmicrosystems.libgdx.twoliesonefact.android',
-        imgUrl: 'assets/img/2l1f.jpeg',
-        tags: ['java', 'android', 'libgdx']
-    },
-
-    {
         title: 'Beam',
         description: 'Beam is a small text editor I\'m developing as a side project in my free time. I intend to implement features such as text highlighting, FTP connections and a few others, the source is hosted on Github.',
         url: 'https://github.com/tobex9434/Beam',
         imgUrl: 'assets/img/beam.jpg',
         tags: ['java']
+    },
+
+    {
+        title: 'Popular Movies',
+        description: 'An android app built during my Android associate developer certification from Udacity',
+        url: 'https://github.com/tobex9434/popularMoviesUdacity',
+        imgUrl: 'assets/img/movies.jpg',
+        tags: ['java', 'android']
+    },
+
+    {
+        title: '2 Lies 1 Fact',
+        description: 'A general knowledge quiz game on android. The source code is available on github.',
+        url: 'https://play.google.com/store/apps/details?id=com.nectarmicrosystems.libgdx.twoliesonefact.android',
+        imgUrl: 'assets/img/2l1f.jpeg',
+        tags: ['java', 'android', 'libgdx']
     },
 
     {
