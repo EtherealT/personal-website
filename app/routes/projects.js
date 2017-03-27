@@ -8,7 +8,7 @@ let projects = [
         description: 'Veedigo is a platform engineered to help college students in Budapest Hungary, by providing some services that aid student life. This is a collaborative project with Harry Otemelate.',
         url: 'http://veedigo.com',
         imgUrl: 'assets/img/veedigo.png',
-        tags: ['java', 'php', 'javascript', 'ember']
+        tags: ['java', 'php', 'javascript', 'ember', 'spring']
     },
 
     {
