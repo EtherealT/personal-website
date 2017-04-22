@@ -28,6 +28,14 @@ let projects = [
     },
 
     {
+        title: 'Stock Hawk',
+        description: 'An Android app for monitoring stocks from the Android Developer Nanodegree.',
+        url: 'https://github.com/tobex9434/StockHawk',
+        imgUrl: 'assets/img/stock.jpg',
+        tags: ['java', 'android']
+    },
+
+    {
         title: '2 Lies 1 Fact',
         description: 'A general knowledge quiz game on android. The source code is available on github.',
         url: 'https://play.google.com/store/apps/details?id=com.nectarmicrosystems.libgdx.twoliesonefact.android',
@@ -42,6 +50,7 @@ let projects = [
         imgUrl: 'assets/img/ej.jpg',
         tags: ['java', 'android']
     }
+
 ];
 
 export default Ember.Route.extend(PageFadein, {
