@@ -61,3 +61,12 @@
     text-decoration: none;
     color: #3D3D3D;
 }
+
+#quote{
+    display: block;
+    margin: auto;
+    font-family: 'hp simplified italic';
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}

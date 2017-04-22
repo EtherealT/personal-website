@@ -13,10 +13,10 @@
     src: url("/assets/fonts/HP Simplified Bold.otf") format("opentype");
 }
 
-/*@font-face {
+@font-face {
     font-family: 'hp simplified italic';
     src: url("/assets/fonts/HP Simplified Italic.otf") format("opentype");
-}*/
+}
 
 body{
     color: #3d3d3d;
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6{
 #find-me-hold{
     display: table;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .find-me{
