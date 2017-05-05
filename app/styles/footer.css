@@ -1,0 +1,14 @@
+#footer{
+    width: 90%;
+    height: 35px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    padding-top: 20px;
+    background-color: #FFF;
+    color: #707070;
+    font-family: 'Lato-Regular';
+}
+
