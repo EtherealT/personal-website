@@ -25,7 +25,7 @@
     position: relative;
     top: 20%;
     margin: auto;
-    width: 50%;
+    width: 80%;
 }
 
 .index-text{
@@ -75,4 +75,17 @@
     font-size: 15px;
     text-align: left;
     margin-bottom: 20px;
+}
+
+/*Computer only styling*/
+@media screen and (min-width: 600px) {
+
+    #index-content-box{
+        display: table;
+        position: relative;
+        top: 20%;
+        margin: auto;
+        width: 50%;
+    }
+
 }
