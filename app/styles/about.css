@@ -26,12 +26,12 @@
     font-family: 'Lato-Light';
     font-size: 1.3em;
     line-height: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #about-me-text a{
-    text-decoration: none;
-    color: #43d58c;
+    text-decoration: underline;
+    color: #333;
 }
 
 /*Computer only styling*/

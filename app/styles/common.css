@@ -75,8 +75,8 @@ h1, h2, h3, h4, h5, h6{
 #header{
     width: 100%;
     height: 35px;
-    padding-top: 15px;
-    border-bottom: 1px solid #EDEDED;
+    padding-top: 20px;
+    border-bottom: 0px solid #EDEDED;
     background-color: #FFF;
 }
 
@@ -162,8 +162,7 @@ h1, h2, h3, h4, h5, h6{
 
 #find-me-hold{
     display: table;
-    margin: auto;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .find-me{

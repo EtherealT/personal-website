@@ -5,6 +5,13 @@
     height: 100vh;
 }
 
+#index-header{
+    width: 100%;
+    height: 35px;
+    padding-top: 20px;
+    background-color: #FFF;
+}
+
 #index-page-content{
     width: 100%;
     height: 100vh;
@@ -16,28 +23,26 @@
 #index-content-box{
     display: table;
     position: relative;
-    top: 30%;
+    top: 20%;
     margin: auto;
+    width: 50%;
 }
 
 .index-text{
     font-family: 'Lato-Semibold';
     color: #3D3D3D;
-    text-align: center;
+    text-align: left;
 }
 
 #index-name{
-    display: block;
-    width: 100%;
-    margin: auto;
-    font-size: 3.5em;
+    font-family: 'Lato-Semibold';
 }
 
 #index-sub-name-hold{
     display: table;
     margin: auto;
     padding: 0px;
-    text-align: center;
+    text-align: left;
     border: 0px;
 }
 
@@ -47,7 +52,7 @@
     font-size: 14px;
     padding: 10px 0px 20px 0px;
     margin: 0px 7px 0px 7px;
-    text-align: center;
+    text-align: left;
 }
 
 .index-sub-name{
@@ -66,8 +71,8 @@
 #quote{
     display: block;
     margin: auto;
-    font-family: 'Lato-Italic';
+    font-family: 'Lato-Light';
     font-size: 15px;
-    text-align: center;
-    margin-bottom: 10px;
+    text-align: left;
+    margin-bottom: 20px;
 }

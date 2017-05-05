@@ -1,27 +1,36 @@
 <div class="npnbnm" id="page-wrapper">
-    <div id="index-page-content">
-        <div id="index-content-box">
-            <span class="index-text" id="index-name">Tobi Adeyinka</span>
-            <span id="quote">&#8220; It's better to light a candle than to curse the darkness &#8222;</span>
+    {{menu-item-hover-styling}}
 
-            <div id="index-sub-name-hold">
-                <div class="index-sub-name-unit">
-                    {{#link-to 'about' class="index-text index-sub-name"}}About{{/link-to}}
+    <div id="index-header">
+        <div id="in-header">
+            <div class="npnbnm">
+                {{#link-to 'index' id="header-logo"}}Tobi Adeyinka{{/link-to}}
+            </div>
+
+            <div class="npnbnm" id="menu-div">
+                <div class="menu-item-hold">
+                    <a href="https://blog.tobiadeyinka.com" class="menu-item">Blog</a>
+                    <div class="menu-effect-div transitions"></div>
                 </div>
 
-                <div class="index-sub-name-unit">
-                    {{#link-to 'projects' class="index-text index-sub-name"}}Projects{{/link-to}}
+                <div class="menu-item-hold">
+                    {{#link-to 'projects' class="menu-item"}}Projects{{/link-to}}
+                    <div class="menu-effect-div transitions"></div>
                 </div>
 
-                <div class="index-sub-name-unit">
-                    <a href="https://blog.tobiadeyinka.com" class="index-text index-sub-name">Blog</a>
-                </div>
-
-                <div class="index-sub-name-unit">
-                    {{#link-to 'contact' class="index-text index-sub-name"}}Contact{{/link-to}}
+                <div class="menu-item-hold">
+                    {{#link-to 'contact' class="menu-item"}}Contact{{/link-to}}
+                    <div class="menu-effect-div transitions"></div>
                 </div>
             </div>
 
+        </div>
+    </div>
+
+    <div id="index-page-content">
+        <div id="index-content-box">
+            <span id="about-me-text"><p>Hi! My name is <span id="index-name">Tobi Adeyinka</span>. I'm a software developer based in Budapest, Hungary. I build web and android applications - I'm Google <a href="http://bcert.me/sryzamww" target="_blank">certified</a>. I work mostly with Java and <a href="https://laravel.com/" target="_blank">Laravel</a>. I'm available for freelance and partnerships so please, feel free to get in {{#link-to 'contact'}}touch!{{/link-to}}</p></span>
+            <span id="quote">&#8220;It's better to light a candle than to curse the darkness&#8222; -- Eleanor Roosevelt</span>
             {{find-me}}
         </div>
     </div>
