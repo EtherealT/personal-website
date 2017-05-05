@@ -17,11 +17,11 @@ export default Ember.Component.extend({
             var message = Ember.$('#message');
 
             if(senderName.val().length === 0 || senderEmail.val().length === 0 || message.val().length === 0){
-                Ember.$('#result-div').append('<div style="font-family:hp simplified regular;background-color:#FF5333;color:#ffffff;text-align:center;width:250px;height:10px;border-radius:5px;padding:10px;padding-top:5px;">Please fill out all fields</div>');
+                Ember.$('#result-div').append('<div style="font-family:Lato-Regular;background-color:#FF5333;color:#ffffff;text-align:center;width:250px;height:15px;border-radius:5px;padding:10px;padding-top:5px;">Please fill out all fields</div>');
                 Ember.$('#result-div').fadeIn(500, 'swing');
             }
             else if(!this.isEmail(senderEmail.val())){
-                Ember.$('#result-div').append('<div style="font-family:hp simplified regular;background-color:#FF5333;color:#ffffff;text-align:center;width:250px;height:10px;border-radius:5px;padding:10px;padding-top:5px;">Invalid email address</div>');
+                Ember.$('#result-div').append('<div style="font-family:Lato-Regular;background-color:#FF5333;color:#ffffff;text-align:center;width:250px;height:15px;border-radius:5px;padding:10px;padding-top:5px;">Invalid email address</div>');
                 Ember.$('#result-div').fadeIn(500, 'swing');
             }
             else{
@@ -32,7 +32,7 @@ export default Ember.Component.extend({
 
                 // send message
                 Ember.$.post('/message.php', {'name':senderName, 'email':senderEmail, 'message':message}, function(){
-                    Ember.$('#result-div').append('<div style="font-family:hp simplified regular;background-color:#43d58c;color:#ffffff;text-align:center;width:250px;height:10px;border-radius:5px;padding:10px;padding-top:5px;">Thanks for your message!</div>');
+                    Ember.$('#result-div').append('<div style="font-family:Lato-Regular;background-color:#43d58c;color:#ffffff;text-align:center;width:250px;height:15px;border-radius:5px;padding:10px;padding-top:5px;">Thanks for your message!</div>');
                     Ember.$('#result-div').fadeIn(500, 'swing');
 
                     setTimeout(
