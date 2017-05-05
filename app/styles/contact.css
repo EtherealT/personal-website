@@ -1,13 +1,12 @@
 #contact-hold{
-    width: 80%;
-    position: absolute;
-    left: 50%;
-    top: 35%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    width: 90%;
     height: 490px;
+    position: fixed;
     display: block;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
     z-index: 999;
     margin: auto;
     border-radius: 7px;
