@@ -21,7 +21,7 @@
 }
 
 .index-text{
-    font-family: 'hp simplified bold';
+    font-family: 'Lato-Semibold';
     color: #3D3D3D;
     text-align: center;
 }
@@ -44,8 +44,9 @@
 .index-sub-name-unit{
     display: table;
     float: left;
+    font-size: 14px;
     padding: 10px 0px 20px 0px;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 7px 0px 7px;
     text-align: center;
 }
 
@@ -65,7 +66,7 @@
 #quote{
     display: block;
     margin: auto;
-    font-family: 'hp simplified italic';
+    font-family: 'Lato-Italic';
     font-size: 15px;
     text-align: center;
     margin-bottom: 10px;
