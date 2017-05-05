@@ -18,6 +18,11 @@
     src: url("/assets/fonts/HP Simplified Italic.otf") format("opentype");
 }
 
+@font-face {
+    font-family: 'Lato-Semibold';
+    src: url("/assets/fonts/Lato-Semibold.ttf") format("truetype");
+}
+
 body{
     color: #3d3d3d;
 }
@@ -44,7 +49,7 @@ a:active{
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'hp simplified regular';
+    font-family: 'Lato-Semibold';
 }
 
 #header{
@@ -71,7 +76,7 @@ h1, h2, h3, h4, h5, h6{
 
 #header-logo{
     display: table;
-    font-family: 'hp simplified bold';
+    font-family: 'Lato-Semibold';
     color: #3D3D3D;
     font-size: 1em;
     text-decoration: none;
@@ -79,7 +84,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #page-indicator{
-    font-family: 'hp simplified bold';
+    font-family: 'Lato-Semibold';
     color: #CFCFCF;
     font-size: 1em;
     float: left;
@@ -109,7 +114,7 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
     padding-bottom: 5px;
     display: block;
-    font-family: 'hp simplified bold', candara;
+    font-family: 'Lato-Semibold', candara;
     outline: none;
     text-decoration:none;
 }
