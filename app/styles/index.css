@@ -21,11 +21,13 @@
 }
 
 #index-content-box{
-    display: table;
-    position: relative;
-    top: 20%;
-    margin: auto;
     width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .index-text{
@@ -81,11 +83,13 @@
 @media screen and (min-width: 600px) {
 
     #index-content-box{
-        display: table;
-        position: relative;
-        top: 20%;
-        margin: auto;
         width: 50%;
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 
 }
