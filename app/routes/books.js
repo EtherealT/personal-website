@@ -30,6 +30,11 @@ let books = [
     {
         title: 'Man\'s search for meaning',
         url: '<a target="_blank"  href="https://www.amazon.com/gp/product/080701429X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=080701429X&linkCode=as2&tag=tobex9434-20&linkId=742b7ad409c83a02c41925b50b084670"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=080701429X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=tobex9434-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=tobex9434-20&l=am2&o=1&a=080701429X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    },
+
+    {
+        title: 'Elon Musk',
+        url: '<a target="_blank"  href="https://www.amazon.com/gp/product/006230125X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=006230125X&linkCode=as2&tag=tobex9434-20&linkId=3e8f3bcc0a0a6cba318d953c64e7ac8e"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=006230125X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=tobex9434-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=tobex9434-20&l=am2&o=1&a=006230125X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     }
 ];
 
