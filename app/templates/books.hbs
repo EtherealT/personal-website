@@ -1,5 +1,17 @@
 <div class="npnbnm" id="page-wrapper">
     {{page-header pageName=model.pageName}}
 
+    <div id="books-hold">
+        {{#each model.books as |book|}}
+            <div class="book">
+                {{{book.url}}}
+            </div>
+        {{/each}}
+    </div>
+
+    <!--cant use page footer component here because its absolute and the books list height is not fixed.-->
+    <div id="footer" style="position:relative">
+        <span>&copy; Tobi Adeyinka</span>
+    </div>
 
 </div>
