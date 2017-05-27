@@ -4,6 +4,14 @@ import PageFadein  from '../mixins/page-fadein';
 let pageName = 'Projects';
 let projects = [
     {
+        title: 'Vizerr',
+        description: 'https://play.google.com/store/apps/details?id=com.nectarmicrosystems.vizerr',
+        url: 'Vizerr is an android app that uses OCR to extract text from images. It\'s designed for extracting short excerpts from books by snapping them and sharing the excerpts to social media in form of cards.',
+        imgUrl: 'assets/img/vizerr.png',
+        tags: ['java', 'c++', 'android', 'opencv']
+    },
+
+    {
         title: 'Veedigo',
         description: 'Veedigo is a platform engineered to help college students in Budapest Hungary, by providing some services that aid student life. This is a collaborative project with Harry Otemelate.',
         url: 'http://veedigo.com',
