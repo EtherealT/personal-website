@@ -5,8 +5,8 @@ let pageName = 'Projects';
 let projects = [
     {
         title: 'Vizerr',
-        description: 'https://play.google.com/store/apps/details?id=com.nectarmicrosystems.vizerr',
-        url: 'Vizerr is an android app that uses OCR to extract text from images. It\'s designed for extracting short excerpts from books by snapping them and sharing the excerpts to social media in form of cards.',
+        description: 'Vizerr is an android app that uses OCR to extract text from images. It\'s designed for extracting short excerpts from books by snapping them and sharing the excerpts to social media in form of cards.',
+        url: 'https://play.google.com/store/apps/details?id=com.nectarmicrosystems.vizerr',
         imgUrl: 'assets/img/vizerr.png',
         tags: ['java', 'c++', 'android', 'opencv']
     },
