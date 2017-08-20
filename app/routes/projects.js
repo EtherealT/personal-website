@@ -22,7 +22,7 @@ let projects = [
     {
         title: 'Beam',
         description: 'Beam is a small text editor I\'m developing as a side project in my free time. I intend to implement features such as text highlighting, FTP connections and a few others, the source is hosted on Github.',
-        url: 'https://github.com/tobex9434/Beam',
+        url: 'https://github.com/EtherealT/Beam',
         imgUrl: 'assets/img/beam.jpg',
         tags: ['java']
     },
@@ -30,7 +30,7 @@ let projects = [
     {
         title: 'Popular Movies',
         description: 'An android app built during my Android associate developer certification from Udacity',
-        url: 'https://github.com/tobex9434/popularMoviesUdacity',
+        url: 'https://github.com/EtherealT/Popular-Movies',
         imgUrl: 'assets/img/movies.jpg',
         tags: ['java', 'android']
     },
@@ -38,7 +38,7 @@ let projects = [
     {
         title: 'Stock Hawk',
         description: 'An Android app for monitoring stocks from the Android Developer Nanodegree.',
-        url: 'https://github.com/tobex9434/StockHawk',
+        url: 'https://github.com/EtherealT/Stock-Hawk',
         imgUrl: 'assets/img/stock.jpg',
         tags: ['java', 'android']
     },
