@@ -18,8 +18,13 @@ let books = [
     },
 
     {
-        title: 'Sapiens: a brief history of humans',
+        title: 'Sapiens: A brief history of humans',
         url: '<a target="_blank"  href="https://www.amazon.com/gp/product/0062316095/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0062316095&linkCode=as2&tag=tobex9434-20&linkId=c803069c11a0428dafc91aace8f1de3c"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0062316095&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=tobex9434-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=tobex9434-20&l=am2&o=1&a=0062316095" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    },
+
+    {
+        title: 'Homo Deus: A brief history of tomorrow',
+        url: '<a target="_blank"  href="https://www.amazon.com/gp/product/0062464310/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0062464310&linkCode=as2&tag=etherealt-20&linkId=b099b9be6d829f1dc37e11ad7fdd1942"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0062464310&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=etherealt-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=etherealt-20&l=am2&o=1&a=0062464310" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     },
 
     {
