@@ -21,10 +21,10 @@ let projects = [
 
     {
         title: 'Beam',
-        description: 'Beam is a small text editor I\'m developing as a side project in my free time. I intend to implement features such as text highlighting, FTP connections and a few others, the source is hosted on Github.',
+        description: 'Beam is a cross platform desktop podcast client still at the very beginning of development. I\'m building it for my personal use and to learn the wxWidgets GUI library.',
         url: 'https://github.com/EtherealT/Beam',
-        imgUrl: 'assets/img/beam.jpg',
-        tags: ['java']
+        imgUrl: 'assets/img/podcast.jpg',
+        tags: ['c++', 'wxWidgets', 'CMake']
     },
 
     {
