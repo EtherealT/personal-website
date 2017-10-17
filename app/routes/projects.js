@@ -12,19 +12,27 @@ let projects = [
     },
 
     {
+        title: 'Beam',
+        description: 'Beam is a cross platform desktop podcast client still at the very beginning of development. I\'m building it for my personal use and to learn the wxWidgets GUI library.',
+        url: 'https://etherealt.github.io/Beam/',
+        imgUrl: 'assets/img/podcast.jpg',
+        tags: ['c++', 'wxWidgets', 'CMake']
+    },
+
+    {
+        title: 'ItunesSearch',
+        description: 'A java wrapper for the iTunes search API.',
+        url: 'https://etherealt.github.io/ItunesSearch/',
+        imgUrl: 'assets/img/itunes.jpg',
+        tags: ['java']
+    },
+
+    {
         title: 'Veedigo',
         description: 'Veedigo is a platform engineered to help college students in Budapest Hungary, by providing some services that aid student life. This is a collaborative project with Harry Otemelate.',
         url: 'http://veedigo.com',
         imgUrl: 'assets/img/veedigo.png',
         tags: ['java', 'php', 'javascript', 'ember', 'spring']
-    },
-
-    {
-        title: 'Beam',
-        description: 'Beam is a cross platform desktop podcast client still at the very beginning of development. I\'m building it for my personal use and to learn the wxWidgets GUI library.',
-        url: 'https://github.com/EtherealT/Beam',
-        imgUrl: 'assets/img/podcast.jpg',
-        tags: ['c++', 'wxWidgets', 'CMake']
     },
 
     {
