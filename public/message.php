@@ -19,7 +19,7 @@
     if(isset($_POST['message']))
         $message = sanitize_string($_POST['message']);
 
-    $to = 'tobi@tobiadeyinka.com';
+    $to = 'hello@tobiadeyinka.me';
     $subject = "Website message from " . $name;
     $headers = "From: " . $email;
     $message = $message;
