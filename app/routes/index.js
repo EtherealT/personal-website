@@ -24,6 +24,7 @@ export default Ember.Route.extend(PageFadein, {
 
     activate: function(){
         this.preloadAllImages();
+        $(document).ajaxStart(function() { Pace.restart(); });
     },
 
     preloadAllImages: function(){
