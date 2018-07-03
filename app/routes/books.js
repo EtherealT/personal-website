@@ -40,6 +40,11 @@ let books = [
     {
         title: 'Elon Musk',
         url: '<a target="_blank"  href="https://www.amazon.com/gp/product/006230125X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=006230125X&linkCode=as2&tag=tobex9434-20&linkId=3e8f3bcc0a0a6cba318d953c64e7ac8e"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=006230125X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=tobex9434-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=tobex9434-20&l=am2&o=1&a=006230125X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    },
+
+    {
+      title: 'All the Light we cannot see',
+      url: '<a target="_blank"  href="https://www.amazon.com/gp/product/1501173219/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1501173219&linkCode=as2&tag=oluwatobiadey-20&linkId=65c3cd8c3a315e4ca818db101c9399a9"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1501173219&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=oluwatobiadey-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=oluwatobiadey-20&l=am2&o=1&a=1501173219" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     }
 ];
 
